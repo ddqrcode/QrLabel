@@ -1,0 +1,66 @@
+{
+  "AMABILE_5L_PET": {
+    "name": {
+      "it": "ROSSO AMABILE 13,5°+2° PET"
+    },
+    "nutrition": {
+      "energy_kj": 387,
+      "energy_kcal": 93,
+      "fat": 0,
+      "saturated_fat": 0,
+      "carbs": 0,
+      "sugars": 0,
+      "protein": 0,
+      "salt": 0
+    },
+    "ingredients": {
+      "it": "Uve, mosto di uve concentrato rettificato, stabilizzanti (<strong>gomma arabica, acido metatartarico, acido citrico</strong>), legni e aromi per invecchiamento (tannini), conservanti (<strong>metabisolfito di potassio</strong>, sorbato di potassio).<br><strong>Contiene solfiti</strong>"
+    },
+    "disposal": {
+      "image": "images/smaltimento_pet.png",
+      "text": {
+        "it": [
+           "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
+           "Bottiglia in PET: Raccolta Plastica.",
+           "Tappo in Plastica: Raccolta Plastica.",
+           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+        ]
+      }
+    },
+    "consumption": {
+        "image": "images/consumo_responsabile.png"
+    }
+  },
+  "ALTRO_PRODOTTO_ID": {
+    "name": {
+      "it": "Nome Altro Prodotto (es. Vino Bianco Vetro)"
+    },
+    "nutrition": {
+       "energy_kj": 300,
+       "energy_kcal": 72,
+       "fat": 0,
+       "saturated_fat": 0,
+       "carbs": 0.5,
+       "sugars": 0.5,
+       "protein": 0.1,
+       "salt": 0.01
+    },
+    "ingredients": {
+      "it": "Uve, conservanti (<strong>metabisolfito di potassio</strong>).<br><strong>Contiene solfiti</strong>"
+    },
+    "disposal": {
+      "image": "images/smaltimento_vetro.png",
+      "text": {
+        "it": [
+          "Il produttore ha adottato...",
+          "Bottiglia in Vetro: Raccolta Vetro.",
+          "Tappo in Sughero: Raccolta Organico (verifica nel tuo comune) o Indifferenziato.",
+          "Capsula in Polilaminato: Raccolta Metalli/Alluminio (verifica nel tuo comune)."
+        ]
+      }
+    },
+     "consumption": {
+        "image": "images/consumo_responsabile.png"
+    }
+  }
+}
