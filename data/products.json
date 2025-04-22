@@ -31,9 +31,9 @@
         "image": "images/consumo_responsabile.png"
     }
   },
-  "ALTRO_PRODOTTO_ID": {
+  "ROSSO_14_PET": {
     "name": {
-      "it": "Nome Altro Prodotto (es. Vino Bianco Vetro)"
+      "it": "ROSSO 14% PET"
     },
     "nutrition": {
        "energy_kj": 300,
@@ -46,7 +46,8 @@
        "salt": 0.01
     },
     "ingredients": {
-      "it": "Uve, conservanti (<strong>metabisolfito di potassio</strong>).<br><strong>Contiene solfiti</strong>"
+      "it": "Uve, stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico), legni e aromi per invecchiamento (tannini), conservanti (<strong>metabisolfito di potassio</strong>)."
+
     },
     "disposal": {
       "image": "images/smaltimento_vetro.png",
