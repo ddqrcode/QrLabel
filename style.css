@@ -1,0 +1,54 @@
+/* Incolla qui il contenuto del tuo blocco <style> */
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+.header {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Nota: ombra sopra? Forse era 0 4px 8px? */
+    border-radius: 10px;
+    text-align: center;
+}
+.custom-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.custom-etichetta {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #337a96;
+    position: relative;
+    display: inline-block;
+}
+.custom-etichetta::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #337a96;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.mt-4 { /* Ridefinito per coerenza con Bootstrap, o mantieni il tuo stile specifico */
+    margin-top: 1.5rem !important; /* Usa !important se necessario per sovrascrivere Bootstrap */
+    /* Rimuovi font-size e color se vuoi usare quelli di default o definirli altrove */
+     /* font-size: 18px; */
+     /* color: green; */
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Stile aggiuntivo per nascondere immagini finché non caricate */
+img[src=""] {
+    display: none;
+}
