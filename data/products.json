@@ -96,5 +96,39 @@
      "consumption": {
         "image": "images/consumo_responsabile.png"
     }
+  },
+  "BIANCO_PET": {
+    "name": {
+      "it": "BIANCO PET"
+    },
+    "nutrition": {
+       "energy_kj": 281,
+       "energy_kcal": 67,
+       "fat": 0,
+       "saturated_fat": 0,
+       "carbs": 11,
+       "sugars": 0.15,
+       "protein": 0.0,
+       "salt": 0.01
+    },
+    "ingredients": {
+      "it": "Uve, stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico), conservanti (<strong>metabisolfito di potassio</strong>)."
+
+    },
+    "disposal": {
+      "image": "images/smaltimento_pet.png",
+      "text": {
+        "it": [
+           "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
+           "Bottiglia in PET: Raccolta Plastica.",
+           "Tappo in Plastica: Raccolta Plastica.",
+           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+        ]
+      }
+    },
+     "consumption": {
+        "image": "images/consumo_responsabile.png"
+    }
   }
 }
+
