@@ -121,8 +121,9 @@
 
             #sidebar {
                 transform: translateX(-100%);
-                width: 80%;
-                height: 100%;
+                width: 50%; /* occuperà metà larghezza dello schermo */
+                height: auto; /* altezza variabile */
+                z-index: 15;
             }
 
             #sidebar.show {
@@ -136,6 +137,7 @@
             .image-preview {
                 min-width: 100%;
                 margin-top: 10px;
+                position: relative; /* la rendiamo normale nel flusso */
             }
 
             .image-preview img {
@@ -200,6 +202,7 @@
 
 </body>
 </html>
+
 
 
 
