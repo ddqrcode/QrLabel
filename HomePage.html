@@ -137,21 +137,24 @@
             }
             .containerSidebar {
                  flex-direction: column; /* Sidebar sopra, immagine sotto */
-                margin-left: 0;
+                margin-left: 0; /* niente offset in mobile */
                 width: 100%;
             }
 
             #sidebar {
-                transform: translateX(-100%);
-                width: 40%; /* occuperà meno di metà larghezza dello schermo */
-                height: auto; /* altezza variabile */
-                position: relative;
-                transform: none !important; /* niente slide overlay */
+                position: fixed;        /* Torna a fixed per comportarsi come overlay */
+                top: 0;
+                left: 0;
+                width: 70%;             /* Sidebar prende 70% della larghezza */
+                height: 100%;           /* Occupa tutta l’altezza */
+                background-color: #222;
+                transform: translateX(-100%); /* Nascosta fuori schermo */
+                transition: transform 0.3s ease-in-out;
                 z-index: 15;
             }
 
             #sidebar.show {
-                transform: translateX(0);
+                transform: translateX(0); /* Si mostra con toggle */
             }
 
             .menu-btn {
@@ -233,6 +236,7 @@
 
 </body>
 </html>
+
 
 
 
