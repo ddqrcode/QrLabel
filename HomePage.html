@@ -114,15 +114,22 @@
 
         /* Responsive mobile */
         @media (max-width: 768px) {
+            body {
+                flex-direction: column; /* Sidebar sopra e contenuto sotto se lo schermo è troppo stretto */
+            }
             .containerSidebar {
-                margin-left: 0;
-                flex-direction: column;
+                 display: flex;
+                flex-direction: row; /* Manteniamo sidebar e anteprima affiancati */
+                align-items: flex-start;
+                width: 100%;
             }
 
             #sidebar {
                 transform: translateX(-100%);
-                width: 50%; /* occuperà metà larghezza dello schermo */
+                width: 40%; /* occuperà meno di metà larghezza dello schermo */
                 height: auto; /* altezza variabile */
+                position: relative;
+                transform: none !important; /* niente slide overlay */
                 z-index: 15;
             }
 
@@ -135,8 +142,10 @@
             }
 
             .image-preview {
-                min-width: 100%;
-                margin-top: 10px;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: relative; /* la rendiamo normale nel flusso */
             }
 
@@ -148,7 +157,8 @@
                 transform: translateX(0);
             }
             main {
-                margin-left: 0;
+                margin-left: 0; /* non serve offset perché la sidebar è nel flusso */
+                flex: 1;
             }
         }
     </style>
@@ -202,6 +212,7 @@
 
 </body>
 </html>
+
 
 
 
