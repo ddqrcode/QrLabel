@@ -91,13 +91,18 @@
 
     <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
 
-    <nav id="sidebar">
-        <h2>I Vini</h2>
-        <a href="index.html?qr=AMABILE_5L_PET">ROSSO AMABILE 13,5°+2° PET</a>
-        <a href="index.html?qr=ROSSO_14_PET">ROSSO 14% PET</a>
-        <a href="index.html?qr=ROSATO_PET">ROSATO PET</a>
-        <a href="index.html?qr=BIANCO_PET">BIANCO PET</a>
-    </nav>
+    <div class="containerSidebar">
+        <nav id="sidebar">
+            <h2>I Vini</h2>
+            <a href="index.html?qr=AMABILE_5L_PET" data-img="AMABILE_13_PET.jpg">ROSSO AMABILE 13,5°+2° PET</a>
+            <a href="index.html?qr=ROSSO_14_PET" data-img="ROSSO_14_PET.jpg">ROSSO 14% PET</a>
+            <a href="index.html?qr=ROSATO_PET" data-img="ROSATO_PET.jpg">ROSATO PET</a>
+            <a href="index.html?qr=BIANCO_PET" data-img="BIANCO_PET.jpg">BIANCO PET</a>
+        </nav>
+        <div class="image-preview">
+            <img id="preview" src="" alt="Anteprima Vino">
+        </div>
+    </div>
 
     <main>
         <h1>Etichette digitali dei Vini</h1>
@@ -106,11 +111,27 @@
     </main>
 
     <script>
+        
+        const links = document.querySelectorAll('#sidebar a');
+        const preview = document.getElementById('preview');
+        
         function toggleMenu() {
             document.getElementById("sidebar").classList.toggle("show");
         }
+
+        links.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                preview.src = link.getAttribute('data-img');
+                preview.style.display = 'block';
+            });
+
+            link.addEventListener('mouseleave', () => {
+                preview.style.display = 'none';
+        });
+    });
     </script>
 
 </body>
 </html>
+
 
