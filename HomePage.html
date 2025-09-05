@@ -145,7 +145,7 @@
             }
 
             #sidebar {
-                position: fixed;        /* Torna a fixed per comportarsi come overlay */
+                position: relative;        /* parte del flusso */
                 top: 0;
                 left: 0;
                 width: 50%;             /* Sidebar prende 50% della larghezza */
@@ -170,7 +170,7 @@
             }
 
             .image-preview {
-                flex: 1;
+                flex: 1;   /* prende lo spazio rimanente */
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -247,6 +247,7 @@
 
 </body>
 </html>
+
 
 
 
