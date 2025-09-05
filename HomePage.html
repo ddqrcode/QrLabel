@@ -139,7 +139,7 @@
                 flex-direction: column; /* Sidebar sopra e contenuto sotto se lo schermo è troppo stretto */
             }
             .containerSidebar {
-                flex-direction: column; /* Sidebar sopra, immagine sotto */
+                flex-direction: row;   /* sidebar + contenuto affiancati */
                 margin-left: 0; /* niente offset in mobile */
                 width: 100%;
             }
@@ -148,7 +148,7 @@
                 position: fixed;        /* Torna a fixed per comportarsi come overlay */
                 top: 0;
                 left: 0;
-                width: 50%;             /* Sidebar prende 70% della larghezza */
+                width: 50%;             /* Sidebar prende 50% della larghezza */
                 height: 100%;           /* Occupa tutta l’altezza */
                 background-color: #222;
                 transform: translateX(-100%); /* Nascosta fuori schermo */
@@ -160,6 +160,11 @@
                 transform: translateX(0); /* Si mostra con toggle */
             }
 
+            /* Quando la sidebar è aperta, sposta a destra l'immagine */
+            .sidebar-open .image-preview {
+                margin-left: 70%;  /* lascia spazio alla sidebar */
+            }
+            
             .menu-btn {
                 display: block;
             }
@@ -170,6 +175,7 @@
                 justify-content: center;
                 align-items: center;
                 position: relative; /* la rendiamo normale nel flusso */
+                transition: margin-left 0.3s ease-in-out;
             }
 
             .image-preview img {
@@ -235,11 +241,13 @@
             document.getElementById("sidebar").classList.toggle("show");
             const expanded = document.getElementById("sidebar").classList.contains("show");
             document.getElementById("menuBtn").setAttribute("aria-expanded", expanded);
+            document.body.classList.toggle("sidebar-open", expanded); // aggiunge/rimuove classe al body
         }
     </script>
 
 </body>
 </html>
+
 
 
 
