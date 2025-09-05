@@ -63,7 +63,7 @@
             transition: background-color 0.3s, color 0.3s;
         }
         
-         #sidebar a:hover,
+        #sidebar a:hover,
         #sidebar a:focus {
           background-color: #d4af37;
           color: #000;
@@ -79,15 +79,18 @@
             align-items: center;
         }
         .image-preview img {
-            width: 300px;
-            height: 200px;
-            object-fit: cover;
+            width: 100%;
+            max-width: 350px;   /* limite massimo su desktop */
+            height: auto;
+            max-height: 250px;  /* limite massimo per non deformare */
+            object-fit: contain; /* mostra sempre tutta l'immagine */
             border: 2px solid #d4af37;
             border-radius: 8px;
             opacity: 0;
             transform: translateX(-20px);
             transition: opacity 0.5s ease, transform 0.5s ease;
             position: absolute;
+            background-color: #000; /* evita buchi se l'immagine non riempie tutto */
         }
         .image-preview img.show {
             opacity: 1;
@@ -175,6 +178,7 @@
                 height: auto;
                 max-height: 300px;
                 transform: translateX(0);
+                object-fit: contain; /* anche in mobile resta tutta visibile */
             }
             main {
                 margin-left: 0; /* non serve offset perché la sidebar è nel flusso */
@@ -236,6 +240,7 @@
 
 </body>
 </html>
+
 
 
 
