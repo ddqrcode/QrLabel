@@ -381,7 +381,7 @@
 
     },
     "disposal": {
-      "image": "images/smaltimento_pet.png",
+      "image": "images/smaltimentoSPUMANTE.png",
       "text": {
         "it": [
            "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
@@ -392,10 +392,11 @@
       }
     },
      "consumption": {
-        "image": "images/smaltimentoSPUMANTE.png"
+        "image": "images/consumo_responsabile.png"
     }
   }
 }
+
 
 
 
