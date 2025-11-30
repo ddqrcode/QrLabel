@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nutriSaltElement = document.getElementById('nutri-salt');
     const ingredientsListElement = document.getElementById('ingredients-list');
     const alcoholPercentageElement = document.getElementById('alcoholPercentage');
-    const serviceTemperatureElement = document.getElementById('alcoholPercentage');
+    const serviceTemperatureElement = document.getElementById('serviceTemperature');
     const allergensInfoElement = document.getElementById('allergens-info'); // Potrebbe non servire se inclusi in ingredients
     const disposalImageElement = document.getElementById('disposal-image');
     const disposalTextContainer = document.getElementById('disposal-text-container');
@@ -87,6 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
                      allergensInfoElement.innerHTML = "";
                 }
 
+                // --- Caratteristiche ---
+                if (productData.alcoholPercentage && productData.serviceTemperature) {
+                    alcoholPercentageElement.textContent = productData.alcoholPercentage;
+                    serviceTemperatureElement.textContent = productData.serviceTemperature;
+                }
+
                 // --- Smaltimento ---
                 if (productData.disposal) {
                     // Immagine
@@ -130,3 +136,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
 });
+
