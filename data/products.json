@@ -300,9 +300,9 @@
       "text": {
         "it": [
            "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
-           "Bottiglia in PET: Raccolta Plastica.",
-           "Tappo in Plastica: Raccolta Plastica.",
-           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+           "Bottiglia in Vetro: Raccolta Vetro.",
+           "Tappo in Sughero: Raccolta Differenziata Dedicata.",
+           "Capsula Polilaminato: Raccolta Aluminio."
         ]
       }
     },
@@ -330,13 +330,13 @@
     "alcoholPercentage":"11",
     "serviceTemperature":"6",
     "disposal": {
-      "image": "images/SmaltimentoBottiglia.png",
+      "image": "images/SmaltimentoBottiglia.jpeg",
       "text": {
         "it": [
            "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
-           "Bottiglia in PET: Raccolta Plastica.",
-           "Tappo in Plastica: Raccolta Plastica.",
-           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+           "Bottiglia in Vetro: Raccolta Vetro.",
+           "Tappo in Sughero: Raccolta Differenziata Dedicata.",
+           "Capsula Polilaminato: Raccolta Aluminio."
         ]
       }
     },
@@ -364,13 +364,13 @@
     "alcoholPercentage":"11",
     "serviceTemperature":"6",
     "disposal": {
-      "image": "images/SmaltimentoBottiglia.png",
+      "image": "images/SmaltimentoBottiglia.jpeg",
       "text": {
         "it": [
            "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
-           "Bottiglia in PET: Raccolta Plastica.",
-           "Tappo in Plastica: Raccolta Plastica.",
-           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+           "Bottiglia in Vetro: Raccolta Vetro.",
+           "Tappo in Sughero: Raccolta Differenziata Dedicata.",
+           "Capsula Polilaminato: Raccolta Aluminio."
         ]
       }
     },
@@ -403,9 +403,10 @@
       "text": {
         "it": [
            "Il produttore ha adottato, in ottemperanza al DL 116/2020, l'Etichetta Ambientale per il corretto smaltimento degli imballaggi dei propri prodotti.",
-           "Bottiglia in PET: Raccolta Plastica.",
-           "Tappo in Plastica: Raccolta Plastica.",
-           "Etichetta in carta: le etichette apposte non sono soggette a smaltimento separato dalla bottiglia."
+           "Bottiglia in Vetro: Raccolta Vetro.",
+           "Tappo in Sughero: Raccolta Differenziata Dedicata.",
+           "Capsula Polilaminato: Raccolta Aluminio.",
+           "Gabbietta: Raccolta Acciaio."
         ]
       }
     },
@@ -414,5 +415,6 @@
     }
   }
 }
+
 
 
