@@ -201,17 +201,17 @@
       "it": "ROSSO AMABILE"
     },
     "nutrition": {
-       "energy_kj": 300,
-       "energy_kcal": 72,
+       "energy_kj": 387,
+       "energy_kcal": 93,
        "fat": 0,
        "saturated_fat": 0,
-       "carbs": 0.0,
-       "sugars": 0.0,
+       "carbs": 4.6,
+       "sugars": 3.7,
        "protein": 0.0,
-       "salt": 0.00
+       "salt": 0.01
     },
     "ingredients": {
-      "it": "Uve, agenti stabilizzanti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio)."
+      "it": "Uve, mosto di uve concentrato rettificato, agenti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio). <strong>Contiene Solfiti</strong>"
 
     },
     "disposal": {
@@ -396,6 +396,7 @@
     }
   }
 }
+
 
 
 
