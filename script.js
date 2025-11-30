@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const nutriProteinElement = document.getElementById('nutri-protein');
     const nutriSaltElement = document.getElementById('nutri-salt');
     const ingredientsListElement = document.getElementById('ingredients-list');
+    const alcoholPercentageElement = document.getElementById('alcoholPercentage');
+    const serviceTemperatureElement = document.getElementById('alcoholPercentage');
     const allergensInfoElement = document.getElementById('allergens-info'); // Potrebbe non servire se inclusi in ingredients
     const disposalImageElement = document.getElementById('disposal-image');
     const disposalTextContainer = document.getElementById('disposal-text-container');
@@ -126,4 +128,5 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Errore nel caricamento o elaborazione dei dati:', error);
             displayError("Impossibile caricare le informazioni sull'etichetta. Si è verificato un problema.");
         });
+
 });
