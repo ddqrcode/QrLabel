@@ -360,7 +360,7 @@
     },
     "ingredients": {
        "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, manno proteine, tannini, acido metatartarico), mosto di uve concentrato rettificato (MCR). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
-    },ù
+    },
     "alcoholPercentage":"11",
     "serviceTemperature":"6",
     "disposal": {
@@ -414,4 +414,5 @@
     }
   }
 }
+
 
