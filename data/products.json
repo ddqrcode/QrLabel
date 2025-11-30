@@ -16,8 +16,8 @@
     "ingredients": {
       "it": "Uve, mosto di uve concentrato rettificato, stabilizzanti (<strong>gomma arabica, acido metatartarico, acido citrico</strong>), legni e aromi per invecchiamento (tannini), conservanti (<strong>metabisolfito di potassio</strong>, sorbato di potassio).<br><strong>Contiene solfiti</strong>"
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -51,8 +51,8 @@
       "it": "Uve, stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico), legni e aromi per invecchiamento (tannini), conservanti (<strong>metabisolfito di potassio</strong>)."
 
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -86,8 +86,8 @@
       "it": "Uve, stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico), legni e aromi per invecchiamento (tannini), conservanti (<strong>metabisolfito di potassio</strong>)."
 
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -121,8 +121,8 @@
       "it": "Uve, stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico), conservanti (<strong>metabisolfito di potassio</strong>)."
 
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -156,8 +156,8 @@
       "it": "Uve, agenti stabilizzanti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio)."
 
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -191,8 +191,8 @@
       "it": "Uve, agenti stabilizzanti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio)."
 
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -225,8 +225,8 @@
     "ingredients": {
       "it": "Uve, mosto di uve concentrato rettificato, agenti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio). <strong>Contiene Solfiti</strong>"
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -259,8 +259,8 @@
     "ingredients": {
       "it": "Uve, agenti stabilizzanti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, acido citrico, tannini), conservanti (<strong>metabisolfito di potassio</strong> e sorbato di potassio)."
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimento_pet.png",
       "text": {
@@ -293,8 +293,8 @@
     "ingredients": {
       "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, carbossimetilcellulosa (CMC), acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/SmaltimentoBottiglia.jpeg",
       "text": {
@@ -327,8 +327,8 @@
     "ingredients": {
       "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, carbossimetilcellulosa (CMC), acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/SmaltimentoBottiglia.png",
       "text": {
@@ -361,8 +361,8 @@
     "ingredients": {
        "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, manno proteine, tannini, acido metatartarico), mosto di uve concentrato rettificato (MCR). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },ù
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/SmaltimentoBottiglia.png",
       "text": {
@@ -396,8 +396,8 @@
     "ingredients": {
       "it": "Uve, conservanti (<strong>metabisolfito di potassio</strong>), agenti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico, tannini)"
     },
-    "alcoholPercentage":11,
-    "serviceTemperature":6,
+    "alcoholPercentage":"11",
+    "serviceTemperature":"6",
     "disposal": {
       "image": "images/smaltimentoSPUMANTE.jpeg",
       "text": {
@@ -414,3 +414,4 @@
     }
   }
 }
+
