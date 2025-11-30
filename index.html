@@ -20,7 +20,7 @@
 
     <div class="container">
         <div class="card">
-            <h1 class="custom-etichetta text-center">Etichetta Digitale</h1>
+			<h2 class="custom-etichetta text-center">Etichetta Digitale</h2>
 
             <h2 class="mt-4">Dichiarazione Nutrizionale</h2>
             <table class="table table-striped">
@@ -44,7 +44,24 @@
             <p id="ingredients-list">Caricamento...</p>
             <!-- ID per il paragrafo allergeni (contenuto in ingredienti o separato) -->
             <p id="allergens-info"></p>
+			
+			<h2 class="mt-4">Caratteristiche</h2>			
+			<div class="wine-info">
+			  <div class="info-item">
+				<img src="images/winebottle.png" width="30">
+				<span>
+				  Vol. alcool: <span id="alcoholPercentage"></span>%
+				</span>
+			  </div>
 
+			  <div class="info-item">
+				<img src="images/thermometer.png" width="30">
+				<span>
+				  Servire a: <span id="serviceTemperature"></span>°C
+				</span>
+			  </div>
+			</div>
+						
             <h2 class="mt-4">Indicazioni sul corretto smaltimento</h2>
             <div class="text-center">
                 <!-- ID per l'immagine di smaltimento -->
