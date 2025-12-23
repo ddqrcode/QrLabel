@@ -291,7 +291,7 @@
        "salt": 0.01
     },
     "ingredients": {
-      "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, carbossimetilcellulosa (CMC), acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
+      "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },
     "alcoholPercentage":"12,5",
     "serviceTemperature":"8°C - 11",
@@ -325,7 +325,7 @@
        "salt": 0.01
     },
     "ingredients": {
-      "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, carbossimetilcellulosa (CMC), acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
+      "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, acido metatartarico). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },
     "alcoholPercentage":"13",
     "serviceTemperature":"12°C - 14",
@@ -359,7 +359,7 @@
        "salt": 0.01
     },
     "ingredients": {
-       "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, manno proteine, tannini, acido metatartarico), mosto di uve concentrato rettificato (MCR). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
+       "it": "Uve, agenti stabilizzanti (<strong>gomma arabica</strong>, tannini, acido metatartarico), mosto di uve concentrato rettificato (MCR). Conservanti (<strong>metabisolfito di potassio</strong>). Imbottigliato in atmosfera protettiva"
     },
     "alcoholPercentage":"13",
     "serviceTemperature":"14°C - 16",
@@ -415,6 +415,7 @@
     }
   }
 }
+
 
 
 
